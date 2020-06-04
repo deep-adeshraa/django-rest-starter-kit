@@ -10,17 +10,17 @@ django project
         `python3 manage.py migrate`
 5) to create random data 
         `python3 manage.py generate_data` 
-   
-`Some Demo apis usage. provided all required params in postman collection`  
 
-6) to get user activity details you need token
+# Some Demo apis usage. provided all required params in postman collection
+
+1) to get user activity details you need token
    so first sign-up on url
    `{{base_url}}/api/sign-up/`
-7) now your account is created so you need to login
+2) now your account is created so you need to login
     `{{base_url}}/api/sign-up/`
     
-8) You will get token after successfull login
-9) now hit get request on
+3) You will get token after successfull login
+4) now hit get request on
     `{{base_url}}/api/get-activities/`
     
 # thank you 

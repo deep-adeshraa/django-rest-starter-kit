@@ -1,1 +1,26 @@
 # ThrottleLabs
+
+django project
+
+1) Clone the repository
+2) create your virtual environment for this project
+       ` python3 -m venv "name of env`
+3) install requirements `pip install -r requirements.txt`
+4) migrate tables 
+        `python3 manage.py migrate`
+5) to create random data 
+        `python3 manage.py generate_data` 
+   
+`Some Demo apis usage. provided all required params in postman collection`  
+
+6) to get user activity details you need token
+   so first sign-up on url
+   `{{base_url}}/api/sign-up/`
+7) now your account is created so you need to login
+    `{{base_url}}/api/sign-up/`
+    
+8) You will get token after successfull login
+9) now hit get request on
+    `{{base_url}}/api/get-activities/`
+    
+# thank you 

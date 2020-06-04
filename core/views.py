@@ -59,7 +59,9 @@ class ActivitiesViewSet(APIView):
         for user in paginated_res[1]:
             user_data = {}
             user_data['real_name'] = user.first_name + " " + user.last_name
-            user_data["tz"] = user.info.tz
+            info_instance = core_models.UserInfo.objects.filter(user=user).last()
+            if info_instance:
+                user_data["tz"] = info_instance.tz
             activities_qs = core_models.ActivityPeriods.objects.filter(user=user)
             user_data["activities"] = activities_qs.values('start_time', 'end_time')
 

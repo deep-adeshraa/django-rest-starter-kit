@@ -23,7 +23,7 @@ class Command(BaseCommand):
             password = ''.join([random.choice(
                 ascii_lowercase + digits)
                 for n in range(8)])
-            print(firstname + lastname, password)
+            # print(firstname + lastname, password)
             auth_models.User.objects.create_user(
                 first_name=firstname,
                 last_name=lastname,

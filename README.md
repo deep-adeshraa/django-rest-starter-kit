@@ -12,7 +12,7 @@ django project
         `python3 manage.py generate_data` 
 
 # Some Demo apis usage. provided all required params in postman collection
-
+`base_url = https://deep-project.herokuapp.com`
 1) to get user activity details you need token
    so first sign-up on url
    `{{base_url}}/api/sign-up/`

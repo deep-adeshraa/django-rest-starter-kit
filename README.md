@@ -1,4 +1,4 @@
-# ThrottleLabs
+# Djang-Rest startet-kit
 
 django project
 

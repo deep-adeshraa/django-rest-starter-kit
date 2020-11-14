@@ -1,10 +1,10 @@
 # Djang-Rest startet-kit
 
-django project
+Basic implemetation for beginner to start his  journey with Django and Rest APIs
 
 1) Clone the repository
 2) create your virtual environment for this project
-       ` python3 -m venv "name of env`
+       ` python3 -m venv "name of env"
 3) install requirements `pip install -r requirements.txt`
 4) migrate tables 
         `python3 manage.py migrate`
